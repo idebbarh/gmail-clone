@@ -37,7 +37,7 @@ function App() {
                 <SideBar/>
                 <Routes>
                     <Route path="/" element={<MailsList/>}/>
-                    <Route path="/mail" element={<Mail/>}/>
+                    <Route path="/mail/:id" element={<Mail/>}/>
                 </Routes>
             </div>
             {mailFormIsOpen && <SendMail/>}

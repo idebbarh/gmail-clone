@@ -1,12 +1,9 @@
 import { Button } from '@mui/material'
-import { GoogleAuthProvider, signInWithPopup } from 'firebase/auth';
+import { signInWithPopup } from 'firebase/auth';
 import React from 'react'
-import { useDispatch } from 'react-redux';
-import { login } from '../features/userSlice';
 import { auth, provider } from '../firebase/firebase';
 import './LoginPage.css'
 function LoginPage() {
-    const dispatch = useDispatch();
     const handleLogin = ()=>{
         signInWithPopup(auth, provider)
             .then((result) => {

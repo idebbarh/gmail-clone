@@ -12,7 +12,7 @@ function MailRow({title,subject,message,time,id}) {
   const openMail = (event)=>{
     if(event.target === event.currentTarget || event.target.className === 'mailRow__title' || event.target.className === 'mailRow__contents' || event.target.className === 'mailRow__time' || event.target.className === 'mailRow__message'){
       dispatch(setSelectedMail({title,subject,message,time,id}))
-      navigate('/mail');
+      navigate(`/mail/${id}`);
     }
   }
   return (
