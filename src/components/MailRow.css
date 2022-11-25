@@ -1,0 +1,43 @@
+.mailRow{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    gap: 20px;
+    color: var(--main-text-black-color);
+    border-bottom: 1px solid whitesmoke;
+    z-index: 99;
+    cursor: pointer;
+}
+.mailRow:hover{
+    box-shadow: inset 1px 0 0 #dadce0, inset -1px 0 0 #dadce0, 0 1px 2px 0 rgb(60 64 67 / 30%), 0 1px 3px 1px rgb(60 64 67 / 15%);
+}
+.mainRow__tools{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.mailRow__toolsIcon{
+    font-size: 18px !important;
+}
+.mailRow__title,
+.mailRow__contents{
+    margin-right: auto;
+    font-size: 13px;
+    font-weight: 600;
+}
+.mailRow__contents{
+    display: flex;
+    width: 500px;
+    white-space: nowrap;
+}
+.mailRow__contents > span{
+    color: var(--main-gray-color);
+    font-weight: 400;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.mailRow__time{
+    font-size: 12px;
+}

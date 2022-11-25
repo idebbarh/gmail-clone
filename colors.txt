@@ -1,0 +1,11 @@
+/* --main-background-color:#f6f8fc;
+--main-white-color:#ffffff;
+--main-gray-color:#5f6368;
+--main-text-black-color:#444746;
+--side-bar-text-color:#202124;
+--side-bar-active-text-color:#001d35;
+--blue-10:#c2e7ff;
+--blue-20:#d3e3fd;
+--blue-30:#eaf1fb;
+--section-active-color:#0b57d0;
+--hover-color:rgba(68,71,70,0.059); */

@@ -1,0 +1,18 @@
+.sideBar{
+    padding-right: 15px;
+    flex: 0.2;
+}
+.sideBar__compose{
+    margin: 10px 0 15px 10px !important;
+    padding: 15px !important;
+    border-radius: 15px !important;
+    -webkit-border-radius: 15px !important;
+    -moz-border-radius: 15px !important;
+    -ms-border-radius: 15px !important;
+    -o-border-radius: 15px !important;
+    color: #274f89 !important;
+    background-color: var(--blue-10) !important;
+}
+.sideBar__compose:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}

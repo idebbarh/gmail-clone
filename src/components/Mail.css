@@ -1,0 +1,58 @@
+.mail{
+    background-color: rgb(240, 240, 240);
+    height: calc(100vh - 66px);
+    flex: 0.8;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    overflow-y: auto;
+}
+.mail__setting{
+    background-color: var(--main-white-color);
+    display: flex;
+    gap: 5px;
+    padding: 5px;
+}
+.mail__settingIcon{
+    font-size: 18px !important;
+}
+.mail__body{
+    background-color: var(--main-white-color);
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    margin: 40px;
+    width: calc(100% - 80px);
+    height: calc(100% - 124px);
+    padding: 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.mail__bodyHeader{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    color: var(--main-text-black-color);
+}
+.mail__subject{
+    font-size: 34px;
+}
+.mail__title{
+    font-size: 25px;
+    font-weight: 300;
+}
+.mail__bodyHeaderIcon{
+    font-size: 30px !important;
+}
+.mail__time{
+    margin-left: auto;
+    color: var(--main-gray-color);
+}
+.mail__message{
+    padding: 30px;
+    font-weight: 400;
+    font-size: 20px;
+}

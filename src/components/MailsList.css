@@ -1,0 +1,36 @@
+.mailsList{
+    background-color: var(--main-white-color);
+    height: calc(100vh - 66px);
+    flex: 0.8;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    overflow-y: auto;
+}
+.mailsList__setting{
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    position: sticky;
+    left: 0;
+    top: 0;
+    background-color: var(--main-white-color);
+    z-index: 999;
+}
+.mailsList__icon{
+    font-size: 18px !important;
+}
+.mailsList__sections{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border-bottom: 1px solid whitesmoke;   
+}
+.mails__list{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}

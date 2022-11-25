@@ -1,0 +1,21 @@
+.mailsListSection{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 15px;
+    cursor: pointer;
+    font-size: 13px;
+    color: var(--main-gray-color);
+    width: 15%;
+}
+.mailsListSection--active{
+    border-bottom: 3px solid var(--section-active-color);
+    color: var(--section-active-color);
+}
+.mailsListSection:hover{
+    background-color: var(--hover-color);
+    
+}
+.mailsListSection__icon{
+    font-size: 18px !important;
+}
